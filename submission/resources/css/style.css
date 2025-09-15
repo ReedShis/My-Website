@@ -1,0 +1,43 @@
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+
+a {
+  color: #000000; /* Sets all links to black */
+}
+
+.navbar-arrow {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 5px; 
+}
+
+.navbar-brand[aria-expanded="true"] .navbar-arrow {
+  transform: rotate(180deg);
+}
+
+.carousel-inner img {
+  height: 500px; 
+}
+
+.card-img-top {
+  height: 250px; 
+  object-fit: cover;
+}
+
+.bg-home-color {
+  background-color: #f0c133;
+}
+
+.bg-hobbies-color {
+  background-color: #89c2f0;
+}
+
+.bg-projects-color {
+  background-color: #d14a4a;
+}
+
+.bg-resume-color {
+  background-color: #df99ff;
+}
